@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<title>Mundo Periféricos - Carrito</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<div class="main-container">
+			<div class="container">
+				<h2>Mi carrito</h2>
+				<p id="micarrito"></p>
+				<p id="totalCompra"></p>
+				<p id="continuarCompra"></p>
+
+				<div class="text-center">
+					<button class="btn btn-secondary" onclick="borrarCarrito()">
+						Eliminar mi carrito
+					</button>
+				</div>
+
+				<div>
+					<a class="btn btn-small" href="menu.html">
+						Volver al menú principal
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<script src="scripts/base/storage.js"></script>
+		<script src="scripts/base/autenticacion.js"></script>
+		<script src="scripts/carrito/carrito.js"></script>
+	</body>
+</html>
